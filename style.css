@@ -1,0 +1,190 @@
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+/* header design start */
+.header {
+    background-color: aqua; 
+    width: 100%;
+    color: blue;
+}
+.header-left-side{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.header-left-side h3 {
+    font-size: 2.0rem;
+}
+.nav-item ul {
+    list-style: none;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.nav-item ul li {
+    margin-left: 10px;
+    padding: 10px 0 10px 0;
+    font-size: 1.4rem;
+}
+.nav-item ul li a {
+    text-decoration: none;
+}
+/* header design end */
+
+
+/* first-intro-section design start */
+.first-intro-section {
+display: flex;
+}
+.first-intro-section-left-side {
+    margin-top: 50px;
+}
+/* .first-intro-section-left-side h1 {
+    font-size: 3.5rem;
+} */
+.title-style {
+    font-size: 3.5rem;
+}
+/* .first-intro-section-left-side h4 {
+    font-size: 1.2rem;
+} */
+.sub-title-style {
+    font-size: 1.2rem;
+}
+
+/* .first-intro-section-left-side p{
+    color: rgba(3, 11, 11, 0.681);
+    width: 600px;
+} */
+.description {
+    color: rgba(3, 11, 11, 0.681);
+    width: 600px;   
+}
+/* .first-intro-section-left-side a {
+text-decoration: none;
+background-image: linear-gradient(to right, #ff9773, #ff6c4f);
+padding: 10px 30px;
+border-radius: 10px;
+color: white;
+} */
+.btn-style {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #ff9773, #ff6c4f);
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white; 
+}
+.title-cus {
+    color: #ffa500;
+}
+.first-intro-section-right-side img {
+    width: 80%;
+    margin-left: 40px;
+    /* height: .10rem;
+    width: .15rem; */
+}
+
+/* first-intro-section design end */
+
+
+/* second intro section design start */
+.second-intro-section {
+    display: flex;
+    margin-top: 30px;
+}
+.second-intro-section-left-side{
+width: 90%;
+}
+.second-intro-section-left-side img {
+    width: 80%;
+   
+}
+.second-intro-section-right-side {
+    width: 100%;
+}
+
+/* second intro section design end */
+
+
+/* experiences section design start */
+.experiences {
+    display: flex;
+}
+.left-side-experience {
+    width: 45%;
+    margin-bottom: 50px;
+    border: 2px solid gray;
+    border-left: 8px solid rgba(255, 0, 0, 0.588);
+    padding: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.338); */
+    border-radius: 10px;
+
+}
+.right-side-experience{
+    width: 45%;
+    border: 2px solid gray;
+    border-left: 8px solid rgba(0, 0, 255, 0.73);
+    margin-left: 120px;
+    margin-bottom: 50px;
+    padding: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.338); */
+    border-radius: 10px;
+}
+.exp-section-title {
+    font-size: 3rem;
+}
+.exp-title {
+    font-size: 2.5rem;
+}
+.exp-subtitle {
+    color: #ffa500;
+}
+.exp-desc {
+    text-align: justify;
+    color: rgb(1, 14, 14, 0.707);
+}
+/* experiences section design end */
+
+/* top six purchaser section design start */
+.purchaser img {
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.purchasers {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-gap: 10px;
+    /* display: flex; */
+}
+.purchaser {
+    display: flex;
+    align-items: center;
+    
+}
+.purchaser p {
+    padding-left: 5px;
+    font-weight: bold;
+}
+.top-purchaser h2 {
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+/* top six purchaser section design end */
+
+
+
+/* footer design start */
+.footer {
+    text-align: center;
+}
+/* footer design end */
+
